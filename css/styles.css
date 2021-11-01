@@ -165,6 +165,41 @@ h1 {
     line-height: 2;
 }
 
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6% 20%;
+}
+
+.cta-h3 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 6% 20% 2%;
+}
+
+.icon-footer {
+    margin: 12px;
+}
+
+.footer-link:link {
+    color: inherit;
+}
+.footer-link:visited {
+    color: inherit;
+}
+
 /* Mobile Version */
 
 @media (max-width: 991px) {
@@ -258,5 +293,23 @@ h1 {
 
     .price-button {
         font-size: 3rem;
+    }
+
+    #cta {
+        padding: 6% 10%;
+    }
+
+    .cta-h3 {
+        font-size: 4.5rem;
+    }
+
+    .icon-footer {
+        font-size: 3rem;
+        margin: 30px;
+    }
+
+    .copyright {
+        font-size: 2rem;
+        color: #8f8f8f;
     }
 }
