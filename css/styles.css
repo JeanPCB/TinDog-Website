@@ -18,6 +18,18 @@ h1 {
     padding: 3% 15% 7%;
 }
 
+/* Back to Top Button */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #8f8f8f;
+  }
+
 /* Navbar */
 
 .navbar {
@@ -239,6 +251,10 @@ h1 {
         width: 60%;
     }
 
+    #features {
+        position: static;
+    }
+
     .feature-icon {
         font-size: 10rem;
     }
@@ -265,6 +281,10 @@ h1 {
 
     .press-logo {
         width: 20%;
+    }
+
+    .card {
+        position: static;
     }
 
     .pricing-col {
