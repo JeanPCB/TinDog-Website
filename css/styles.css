@@ -28,6 +28,7 @@ h1 {
     border-radius: 100%;
     color: #fff;
     background-color: #8f8f8f;
+    z-index: 1;
   }
 
 /* Navbar */
@@ -49,13 +50,20 @@ h1 {
     font-weight: 600;
 }
 
+/* Icon Title */
+
+.svg-inline--fa.fa-w-12 {
+    width: 20px;
+    height: 20px;
+}
+
 /* Download Buttons */
 
 .download-button {
     margin: 5% 3% 5% 0;
 }
 
-/* Tittle Image */
+/* Title Image */
 
 .title-image {
     width: 20%;
@@ -246,13 +254,8 @@ h1 {
     }
 
     .title-image {
-        position: static;
         transform: rotate(0);
         width: 60%;
-    }
-
-    #features {
-        position: static;
     }
 
     .feature-icon {
